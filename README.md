@@ -4,7 +4,7 @@ Recognize and blur all faces in photo.
 ## requirement
 
 1. [opencv](https://github.com/opencv/opencv)
-1. [face recognize](https://github.com/ageitgey/face_recognition)
+1. [face recognition](https://github.com/ageitgey/face_recognition)
 
 ## Usage
 python faceblur [source image/source folder] [destination image/destination folder]
