@@ -69,7 +69,7 @@ def blur_all_photo(src_dir, dest_dir):
             ext = os.path.splitext(filename)[1]
             if ext == '.jpg':
                 srcfile_path = os.path.join(root, filename)
-                destfile_path = os.path.join(new_root_path, filename)
+                destfile_path = os.path.join(new_root_path, os.path.basename(filename))
                 face_blur(srcfile_path, destfile_path)
 
 if __name__ == '__main__':
